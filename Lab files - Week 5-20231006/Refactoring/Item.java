@@ -1,4 +1,4 @@
-package com.example;
+
 // SOURCED FROM https://github.com/emilybache/GildedRose-Refactoring-Kata
 
 /* Task 1: Refactor the code below by following good encapsulation principles 

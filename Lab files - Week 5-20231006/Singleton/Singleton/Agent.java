@@ -1,4 +1,3 @@
-
 /**
  *
  * @author phaedramohammed
@@ -16,16 +15,12 @@ public class Agent {
         numRequests = 0;
     }
 
-    public static Agent getInstance(){
+    public static Agent getAgent(){
         if (agentInstance==null){
             agentInstance = new Agent();
         }
-        return agentInstance;
-    }
-
-    public Agent getAgent(){
         numRequests++;
-        return this;
+        return agentInstance;
     }
     public String toString(){
         return "C'est moi, le singleton agent pour le " +numRequests + " fois!";

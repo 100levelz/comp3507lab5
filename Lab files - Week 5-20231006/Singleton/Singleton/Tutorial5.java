@@ -1,4 +1,3 @@
-
 /**
  *
  * @author phaedramohammed
@@ -14,8 +13,8 @@ public class Tutorial5 {
     
     public static void question1(){
         for(int requests=1; requests <10; requests++){
-            Agent bureau = Agent.getInstance();
-            System.out.println(bureau.getAgent());  
+            Agent bureau = Agent.getAgent();
+            System.out.println(bureau.toString());  
         }
     }
     

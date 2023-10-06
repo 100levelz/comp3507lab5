@@ -1,5 +1,3 @@
-package com.example;
-
 // SOURCED FROM https://github.com/emilybache/GildedRose-Refactoring-Kata
 public class Program {
 
