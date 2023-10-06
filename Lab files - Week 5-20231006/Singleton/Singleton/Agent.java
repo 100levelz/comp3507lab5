@@ -8,11 +8,21 @@
  */
 
 public class Agent {
+
     private static int numRequests;
+    private static Agent agentInstance;
     
     private Agent(){
         numRequests = 0;
     }
+
+    public static Agent getInstance(){
+        if (agentInstance==null){
+            agentInstance = new Agent();
+        }
+        return agentInstance;
+    }
+
     public Agent getAgent(){
         numRequests++;
         return this;
